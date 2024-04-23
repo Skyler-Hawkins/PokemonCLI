@@ -1,0 +1,802 @@
+pokedexEntryNum,classfication,generation
+1,Seed Pokémon,1
+2,Seed Pokémon,1
+3,Seed Pokémon,1
+4,Lizard Pokémon,1
+5,Flame Pokémon,1
+6,Flame Pokémon,1
+7,Tiny Turtle Pokémon,1
+8,Turtle Pokémon,1
+9,Shellfish Pokémon,1
+10,Worm Pokémon,1
+11,Cocoon Pokémon,1
+12,Butterfly Pokémon,1
+13,Hairy Pokémon,1
+14,Cocoon Pokémon,1
+15,Poison Bee Pokémon,1
+16,Tiny Bird Pokémon,1
+17,Bird Pokémon,1
+18,Bird Pokémon,1
+19,Mouse Pokémon,1
+20,Mouse Pokémon,1
+21,Tiny Bird Pokémon,1
+22,Beak Pokémon,1
+23,Snake Pokémon,1
+24,Cobra Pokémon,1
+25,Mouse Pokémon,1
+26,Mouse Pokémon,1
+27,Mouse Pokémon,1
+28,Mouse Pokémon,1
+29,Poison Pin Pokémon,1
+30,Poison Pin Pokémon,1
+31,Drill Pokémon,1
+32,Poison Pin Pokémon,1
+33,Poison Pin Pokémon,1
+34,Drill Pokémon,1
+35,Fairy Pokémon,1
+36,Fairy Pokémon,1
+37,Fox Pokémon,1
+38,Fox Pokémon,1
+39,Balloon Pokémon,1
+40,Balloon Pokémon,1
+41,Bat Pokémon,1
+42,Bat Pokémon,1
+43,Weed Pokémon,1
+44,Weed Pokémon,1
+45,Flower Pokémon,1
+46,Mushroom Pokémon,1
+47,Mushroom Pokémon,1
+48,Insect Pokémon,1
+49,Poison Moth Pokémon,1
+50,Mole Pokémon,1
+51,Mole Pokémon,1
+52,Scratch Cat Pokémon,1
+53,Classy Cat Pokémon,1
+54,Duck Pokémon,1
+55,Duck Pokémon,1
+56,Pig Monkey Pokémon,1
+57,Pig Monkey Pokémon,1
+58,Puppy Pokémon,1
+59,Legendary Pokémon,1
+60,Tadpole Pokémon,1
+61,Tadpole Pokémon,1
+62,Tadpole Pokémon,1
+63,Psi Pokémon,1
+64,Psi Pokémon,1
+65,Psi Pokémon,1
+66,Superpower Pokémon,1
+67,Superpower Pokémon,1
+68,Superpower Pokémon,1
+69,Flower Pokémon,1
+70,Flycatcher Pokémon,1
+71,Flycatcher Pokémon,1
+72,Jellyfish Pokémon,1
+73,Jellyfish Pokémon,1
+74,Rock Pokémon,1
+75,Rock Pokémon,1
+76,Megaton Pokémon,1
+77,Fire Horse Pokémon,1
+78,Fire Horse Pokémon,1
+79,Dopey Pokémon,1
+80,Hermit Crab Pokémon,1
+81,Magnet Pokémon,1
+82,Magnet Pokémon,1
+83,Wild Duck Pokémon,1
+84,Twin Bird Pokémon,1
+85,Triple Bird Pokémon,1
+86,Sea Lion Pokémon,1
+87,Sea Lion Pokémon,1
+88,Sludge Pokémon,1
+89,Sludge Pokémon,1
+90,Bivalve Pokémon,1
+91,Bivalve Pokémon,1
+92,Gas Pokémon,1
+93,Gas Pokémon,1
+94,Shadow Pokémon,1
+95,Rock Snake Pokémon,1
+96,Hypnosis Pokémon,1
+97,Hypnosis Pokémon,1
+98,River Crab Pokémon,1
+99,Pincer Pokémon,1
+100,Ball Pokémon,1
+101,Ball Pokémon,1
+102,Egg Pokémon,1
+103,Coconut Pokémon,1
+104,Lonely Pokémon,1
+105,Bone Keeper Pokémon,1
+106,Kicking Pokémon,1
+107,Punching Pokémon,1
+108,Licking Pokémon,1
+109,Poison Gas Pokémon,1
+110,Poison Gas Pokémon,1
+111,Spikes Pokémon,1
+112,Drill Pokémon,1
+113,Egg Pokémon,1
+114,Vine Pokémon,1
+115,Parent Pokémon,1
+116,Dragon Pokémon,1
+117,Dragon Pokémon,1
+118,Goldfish Pokémon,1
+119,Goldfish Pokémon,1
+120,Starshape Pokémon,1
+121,Mysterious Pokémon,1
+122,Barrier Pokémon,1
+123,Mantis Pokémon,1
+124,Humanshape Pokémon,1
+125,Electric Pokémon,1
+126,Spitfire Pokémon,1
+127,Stagbeetle Pokémon,1
+128,Wild Bull Pokémon,1
+129,Fish Pokémon,1
+130,Atrocious Pokémon,1
+131,Transport Pokémon,1
+132,Transform Pokémon,1
+133,Evolution Pokémon,1
+134,Bubble Jet Pokémon,1
+135,Lightning Pokémon,1
+136,Flame Pokémon,1
+137,Virtual Pokémon,1
+138,Spiral Pokémon,1
+139,Spiral Pokémon,1
+140,Shellfish Pokémon,1
+141,Shellfish Pokémon,1
+142,Fossil Pokémon,1
+143,Sleeping Pokémon,1
+144,Freeze Pokémon,1
+145,Electric Pokémon,1
+146,Flame Pokémon,1
+147,Dragon Pokémon,1
+148,Dragon Pokémon,1
+149,Dragon Pokémon,1
+150,Genetic Pokémon,1
+151,New Species Pokémon,1
+152,Leaf Pokémon,2
+153,Leaf Pokémon,2
+154,Herb Pokémon,2
+155,Fire Mouse Pokémon,2
+156,Volcano Pokémon,2
+157,Volcano Pokémon,2
+158,Big Jaw Pokémon,2
+159,Big Jaw Pokémon,2
+160,Big Jaw Pokémon,2
+161,Scout Pokémon,2
+162,Long Body Pokémon,2
+163,Owl Pokémon,2
+164,Owl Pokémon,2
+165,Five Star Pokémon,2
+166,Five Star Pokémon,2
+167,String Spit Pokémon,2
+168,Long Leg Pokémon,2
+169,Bat Pokémon,2
+170,Angler Pokémon,2
+171,Light Pokémon,2
+172,Tiny Mouse Pokémon,2
+173,Star Shape Pokémon,2
+174,Balloon Pokémon,2
+175,Spike Ball Pokémon,2
+176,Happiness Pokémon,2
+177,Little Bird Pokémon,2
+178,Mystic Pokémon,2
+179,Wool Pokémon,2
+180,Wool Pokémon,2
+181,Light Pokémon,2
+182,Flower Pokémon,2
+183,Aquamouse Pokémon,2
+184,Aquarabbit Pokémon,2
+185,Imitation Pokémon,2
+186,Frog Pokémon,2
+187,Cottonweed Pokémon,2
+188,Cottonweed Pokémon,2
+189,Cottonweed Pokémon,2
+190,Long Tail Pokémon,2
+191,Seed Pokémon,2
+192,Sun Pokémon,2
+193,Clear Wing Pokémon,2
+194,Water Fish Pokémon,2
+195,Water Fish Pokémon,2
+196,Sun Pokémon,2
+197,Moonlight Pokémon,2
+198,Darkness Pokémon,2
+199,Royal Pokémon,2
+200,Screech Pokémon,2
+201,Symbol Pokémon,2
+202,Patient Pokémon,2
+203,Long Neck Pokémon,2
+204,Bagworm Pokémon,2
+205,Bagworm Pokémon,2
+206,Land Snake Pokémon,2
+207,Flyscorpion Pokémon,2
+208,Iron Snake Pokémon,2
+209,Fairy Pokémon,2
+210,Fairy Pokémon,2
+211,Balloon Pokémon,2
+212,Pincer Pokémon,2
+213,Mold Pokémon,2
+214,Singlehorn Pokémon,2
+215,Sharp Claw Pokémon,2
+216,Little Bear Pokémon,2
+217,Hibernator Pokémon,2
+218,Lava Pokémon,2
+219,Lava Pokémon,2
+220,Pig Pokémon,2
+221,Swine Pokémon,2
+222,Coral Pokémon,2
+223,Jet Pokémon,2
+224,Jet Pokémon,2
+225,Delivery Pokémon,2
+226,Kite Pokémon,2
+227,Armor Bird Pokémon,2
+228,Dark Pokémon,2
+229,Dark Pokémon,2
+230,Dragon Pokémon,2
+231,Long Nose Pokémon,2
+232,Armor Pokémon,2
+233,Virtual Pokémon,2
+234,Big Horn Pokémon,2
+235,Painter Pokémon,2
+236,Scuffle Pokémon,2
+237,Handstand Pokémon,2
+238,Kiss Pokémon,2
+239,Electric Pokémon,2
+240,Live Coal Pokémon,2
+241,Milk Cow Pokémon,2
+242,Happiness Pokémon,2
+243,Thunder Pokémon,2
+244,Volcano Pokémon,2
+245,Aurora Pokémon,2
+246,Rock Skin Pokémon,2
+247,Hard Shell Pokémon,2
+248,Armor Pokémon,2
+249,Diving Pokémon,2
+250,Rainbow Pokémon,2
+251,Time Travel Pokémon,2
+252,Wood Gecko Pokémon,3
+253,Wood Gecko Pokémon,3
+254,Forest Pokémon,3
+255,Chick Pokémon,3
+256,Young Fowl Pokémon,3
+257,Blaze Pokémon,3
+258,Mud Fish Pokémon,3
+259,Mud Fish Pokémon,3
+260,Mud Fish Pokémon,3
+261,Bite Pokémon,3
+262,Bite Pokémon,3
+263,Tiny Racoon Pokémon,3
+264,Rush Pokémon,3
+265,Worm Pokémon,3
+266,Cocoon Pokémon,3
+267,Butterfly Pokémon,3
+268,Cocoon Pokémon,3
+269,Poison Moth Pokémon,3
+270,Water Weed Pokémon,3
+271,Jolly Pokémon,3
+272,Carefree Pokémon,3
+273,Acorn Pokémon,3
+274,Wily Pokémon,3
+275,Wickid Pokémon,3
+276,TinySwallow Pokémon,3
+277,Swallow Pokémon,3
+278,Seagull Pokémon,3
+279,Water Bird Pokémon,3
+280,Feeling Pokémon,3
+281,Emotion Pokémon,3
+282,Embrace Pokémon,3
+283,Pond Skater Pokémon,3
+284,Eyeball Pokémon,3
+285,Mushroom Pokémon,3
+286,Mushroom Pokémon,3
+287,Slacker Pokémon,3
+288,Wild Monkey Pokémon,3
+289,Lazy Pokémon,3
+290,Trainee Pokémon,3
+291,Ninja Pokémon,3
+292,Shed Pokémon,3
+293,Whisper Pokémon,3
+294,Big Voice Pokémon,3
+295,Loud Noise Pokémon,3
+296,Guts Pokémon,3
+297,Arm Thrust Pokémon,3
+298,Polka Dot Pokémon,3
+299,Compass Pokémon,3
+300,Kitten Pokémon,3
+301,Prim Pokémon,3
+302,Darkness Pokémon,3
+303,Deceiver Pokémon,3
+304,Iron Armor Pokémon,3
+305,Iron Armor Pokémon,3
+306,Iron Armor Pokémon,3
+307,Meditate Pokémon,3
+308,Meditate Pokémon,3
+309,Lightning Pokémon,3
+310,Discharge Pokémon,3
+311,Cheering Pokémon,3
+312,Cheering Pokémon,3
+313,Firefly Pokémon,3
+314,Firefly Pokémon,3
+315,Thorn Pokémon,3
+316,Stomach Pokémon,3
+317,Poison Bag Pokémon,3
+318,Savage Pokémon,3
+319,Brutal Pokémon,3
+320,Ball Whale Pokémon,3
+321,Float Whale Pokémon,3
+322,Numb Pokémon,3
+323,Eruption Pokémon,3
+324,Coal Pokémon,3
+325,Bounce Pokémon,3
+326,Manipulate Pokémon,3
+327,Spot Panda Pokémon,3
+328,Ant Pit Pokémon,3
+329,Vibration Pokémon,3
+330,Mystic Pokémon,3
+331,Cactus Pokémon,3
+332,Scarecrow Pokémon,3
+333,Cotton Bird Pokémon,3
+334,Humming Pokémon,3
+335,Cat Ferret Pokémon,3
+336,Fang Snake Pokémon,3
+337,Meteorite Pokémon,3
+338,Meteorite Pokémon,3
+339,Whiskers Pokémon,3
+340,Whiskers Pokémon,3
+341,Ruffian Pokémon,3
+342,Rogue Pokémon,3
+343,Clay Doll Pokémon,3
+344,Clay Doll Pokémon,3
+345,Sea Lily Pokémon,3
+346,Barnacle Pokémon,3
+347,Old Shrimp Pokémon,3
+348,Plate Pokémon,3
+349,Fish Pokémon,3
+350,Tender Pokémon,3
+351,Weather Pokémon,3
+352,Color Swap Pokémon,3
+353,Puppet Pokémon,3
+354,Marionette Pokémon,3
+355,Requiem Pokémon,3
+356,Beckon Pokémon,3
+357,Fruit Pokémon,3
+358,Wind Chime Pokémon,3
+359,Disaster Pokémon,3
+360,Bright Pokémon,3
+361,Snow Hat Pokémon,3
+362,Face Pokémon,3
+363,Clap Pokémon,3
+364,Ball Roll Pokémon,3
+365,Ice Break Pokémon,3
+366,Bivalve Pokémon,3
+367,Deep Sea Pokémon,3
+368,South Sea Pokémon,3
+369,Longevity Pokémon,3
+370,Rendezvous Pokémon,3
+371,Rock Head Pokémon,3
+372,Endurance Pokémon,3
+373,Dragon Pokémon,3
+374,Iron Ball Pokémon,3
+375,Iron Claw Pokémon,3
+376,Iron Leg Pokémon,3
+377,Rock Peak Pokémon,3
+378,Iceberg Pokémon,3
+379,Iron Pokémon,3
+380,Eon Pokémon,3
+381,Eon Pokémon,3
+382,Sea Basin Pokémon,3
+383,Continent Pokémon,3
+384,Sky High Pokémon,3
+385,Wish Pokémon,3
+386,DNA Pokémon,3
+387,Tiny Leaf Pokémon,4
+388,Grove Pokémon,4
+389,Continent Pokémon,4
+390,Chimp Pokémon,4
+391,Playful Pokémon,4
+392,Flame Pokémon,4
+393,Penguin Pokémon,4
+394,Penguin Pokémon,4
+395,Emperor Pokémon,4
+396,Starling Pokémon,4
+397,Starling Pokémon,4
+398,Predator Pokémon,4
+399,Plump Mouse Pokémon,4
+400,Beaver Pokémon,4
+401,Cricket Pokémon,4
+402,Cricket Pokémon,4
+403,Flash Pokémon,4
+404,Spark Pokémon,4
+405,Gleam Eyes Pokémon,4
+406,Bud Pokémon,4
+407,Bouquet Pokémon,4
+408,Head Butt Pokémon,4
+409,Head Butt Pokémon,4
+410,Shield Pokémon,4
+411,Shield Pokémon,4
+412,Bagworm Pokémon,4
+413,Bagworm Pokémon,4
+414,Moth Pokémon,4
+415,Tiny Bee Pokémon,4
+416,Beehive Pokémon,4
+417,EleSquirrel Pokémon,4
+418,Sea Weasel Pokémon,4
+419,Sea Weasel Pokémon,4
+420,Cherry Pokémon,4
+421,Blossom Pokémon,4
+422,Sea Slug Pokémon,4
+423,Sea Slug Pokémon,4
+424,Long Tail Pokémon,4
+425,Balloon Pokémon,4
+426,Blimp Pokémon,4
+427,Rabbit Pokémon,4
+428,Rabbit Pokémon,4
+429,Magical Pokémon,4
+430,Big Boss Pokémon,4
+431,Catty Pokémon,4
+432,Tiger Cat Pokémon,4
+433,Bell Pokémon,4
+434,Skunk Pokémon,4
+435,Skunk Pokémon,4
+436,Bronze Pokémon,4
+437,Bronze Bell Pokémon,4
+438,Bonsai Pokémon,4
+439,Mime Pokémon,4
+440,Playhouse Pokémon,4
+441,Music Note Pokémon,4
+442,Forbidden Pokémon,4
+443,Land Shark Pokémon,4
+444,Cave Pokémon,4
+445,Mach Pokémon,4
+446,Big Eater Pokémon,4
+447,Emanation Pokémon,4
+448,Aura Pokémon,4
+449,Hippo Pokémon,4
+450,Heavyweight Pokémon,4
+451,Scorpion Pokémon,4
+452,Ogre Scorp Pokémon,4
+453,Toxic Mouth Pokémon,4
+454,Toxic Mouth Pokémon,4
+455,Bug Catcher Pokémon,4
+456,Wing Fish Pokémon,4
+457,Neon Pokémon,4
+458,Kite Pokémon,4
+459,Frosted Tree Pokémon,4
+460,Frosted Tree Pokémon,4
+461,Sharp Claw Pokémon,4
+462,Magnet Area Pokémon,4
+463,Licking Pokémon,4
+464,Drill Pokémon,4
+465,Vine Pokémon,4
+466,Thunderbolt Pokémon,4
+467,Blast Pokémon,4
+468,Jubilee Pokémon,4
+469,Ogre Darner Pokémon,4
+470,Verdant Pokémon,4
+471,Fresh Snow Pokémon,4
+472,Fang Scorp Pokémon,4
+473,Twin Tusk Pokémon,4
+474,Virtual Pokémon,4
+475,Blade Pokémon,4
+476,Compass Pokémon,4
+477,Gripper Pokémon,4
+478,Snow Land Pokémon,4
+479,Plasma Pokémon,4
+480,Knowledge Pokémon,4
+481,Emotion Pokémon,4
+482,Willpower Pokémon,4
+483,Temporal Pokémon,4
+484,Spatial Pokémon,4
+485,Lava Dome Pokémon,4
+486,Colossal Pokémon,4
+487,Renegade Pokémon,4
+488,Lunar Pokémon,4
+489,Sea Drifter Pokémon,4
+490,Seafaring Pokémon,4
+491,Pitch-Black Pokémon,4
+492,Gratitude Pokémon,4
+493,Alpha Pokémon,4
+494,Victory Pokémon,5
+495,Grass Snake Pokémon,5
+496,Grass Snake Pokémon,5
+497,Regal Pokémon,5
+498,Fire Pig Pokémon,5
+499,Fire Pig Pokémon,5
+500,Mega Fire Pig Pokémon,5
+501,Sea Otter Pokémon,5
+502,Discipline Pokémon,5
+503,Formidable Pokémon,5
+504,Scout Pokémon,5
+505,Lookout Pokémon,5
+506,Puppy Pokémon,5
+507,Loyal Dog Pokémon,5
+508,Big-Hearted Pokémon,5
+509,Devious Pokémon,5
+510,Cruel Pokémon,5
+511,Grass Monkey Pokémon,5
+512,Thorn Monkey Pokémon,5
+513,High Temp Pokémon,5
+514,Ember Pokémon,5
+515,Spray Pokémon,5
+516,Geyser Pokémon,5
+517,Dream Eater Pokémon,5
+518,Drowsing Pokémon,5
+519,Tiny Pigeon Pokémon,5
+520,Wild Pigeon Pokémon,5
+521,Proud Pokémon,5
+522,Electrified Pokémon,5
+523,Thunderbolt Pokémon,5
+524,Mantle Pokémon,5
+525,Ore Pokémon,5
+526,Compressed Pokémon,5
+527,Bat Pokémon,5
+528,Courting Pokémon,5
+529,Mole Pokémon,5
+530,Subterrene Pokémon,5
+531,Hearing Pokémon,5
+532,Muscular Pokémon,5
+533,Muscular Pokémon,5
+534,Muscular Pokémon,5
+535,Tadpole Pokémon,5
+536,Vibration Pokémon,5
+537,Vibration Pokémon,5
+538,Judo Pokémon,5
+539,Karate Pokémon,5
+540,Sewing Pokémon,5
+541,Leaf-Wrapped Pokémon,5
+542,Nurturing Pokémon,5
+543,Centipede Pokémon,5
+544,Curlipede Pokémon,5
+545,Megapede Pokémon,5
+546,Cotton Puff Pokémon,5
+547,Windveiled Pokémon,5
+548,Bulb Pokémon,5
+549,Flowering Pokémon,5
+550,Hostile Pokémon,5
+551,Desert Croc Pokémon,5
+552,Desert Croc Pokémon,5
+553,Intimidation Pokémon,5
+554,Zen Charm Pokémon,5
+555,Blazing Pokémon,5
+556,Cactus Pokémon,5
+557,Rock Inn Pokémon,5
+558,Stone Home Pokémon,5
+559,Shedding Pokémon,5
+560,Hoodlum Pokémon,5
+561,Avianoid Pokémon,5
+562,Spirit Pokémon,5
+563,Coffin Pokémon,5
+564,Prototurtle Pokémon,5
+565,Prototurtle Pokémon,5
+566,First Bird Pokémon,5
+567,First Bird Pokémon,5
+568,Trash Bag Pokémon,5
+569,Trash Heap Pokémon,5
+570,Tricky Fox Pokémon,5
+571,Illusion Fox Pokémon,5
+572,Chinchilla Pokémon,5
+573,Scarf Pokémon,5
+574,Fixation Pokémon,5
+575,Manipulate Pokémon,5
+576,Astral Body Pokémon,5
+577,Cell Pokémon,5
+578,Mitosis Pokémon,5
+579,Multiplying Pokémon,5
+580,Water Bird Pokémon,5
+581,White Bird Pokémon,5
+582,Fresh Snow Pokémon,5
+583,Icy Snow Pokémon,5
+584,Snowstorm Pokémon,5
+585,Season Pokémon,5
+586,Season Pokémon,5
+587,Sky Squirrel Pokémon,5
+588,Clamping Pokémon,5
+589,Cavalry Pokémon,5
+590,Mushroom Pokémon,5
+591,Mushroom Pokémon,5
+592,Floating Pokémon,5
+593,Floating Pokémon,5
+594,Caring Pokémon,5
+595,Attaching Pokémon,5
+596,EleSpider Pokémon,5
+597,Thorn Seed Pokémon,5
+598,Thorn Pod Pokémon,5
+599,Gear Pokémon,5
+600,Gear Pokémon,5
+601,Gear Pokémon,5
+602,EleFish Pokémon,5
+603,EleFish Pokémon,5
+604,EleFish Pokémon,5
+605,Cerebral Pokémon,5
+606,Cerebral Pokémon,5
+607,Candle Pokémon,5
+608,Lamp Pokémon,5
+609,Luring Pokémon,5
+610,Tusk Pokémon,5
+611,Axe Jaw Pokémon,5
+612,Axe Jaw Pokémon,5
+613,Chill Pokémon,5
+614,Freezing Pokémon,5
+615,Crystallizing Pokémon,5
+616,Snail Pokémon,5
+617,Shell Out Pokémon,5
+618,Trap Pokémon,5
+619,Martial Arts Pokémon,5
+620,Martial Arts Pokémon,5
+621,Cave Pokémon,5
+622,Automaton Pokémon,5
+623,Automaton Pokémon,5
+624,Sharp Blade Pokémon,5
+625,Sword Blade Pokémon,5
+626,Bash Buffalo Pokémon,5
+627,Eaglet Pokémon,5
+628,Valiant Pokémon,5
+629,Diapered Pokémon,5
+630,Bone Vulture Pokémon,5
+631,Anteater Pokémon,5
+632,Iron Ant Pokémon,5
+633,Irate Pokémon,5
+634,Hostile Pokémon,5
+635,Brutal Pokémon,5
+636,Torch Pokémon,5
+637,Sun Pokémon,5
+638,Iron Will Pokémon,5
+639,Cavern Pokémon,5
+640,Grassland Pokémon,5
+641,Cyclone Pokémon,5
+642,Bolt Strike Pokémon,5
+643,Vast White Pokémon,5
+644,Deep Black Pokémon,5
+645,Abundance Pokémon,5
+646,Boundary Pokémon,5
+647,Colt Pokémon,5
+648,Melody Pokémon,5
+649,Paleozoic Pokémon,5
+650,Spiky Nut Pokémon,6
+651,Spiny Armor Pokémon,6
+652,Spiny Armor Pokémon,6
+653,Fox Pokémon,6
+654,Fox Pokémon,6
+655,Fox Pokémon,6
+656,Bubble Frog Pokémon,6
+657,Bubble Frog Pokémon,6
+658,Ninja Pokémon,6
+659,Digging Pokémon,6
+660,Digging Pokémon,6
+661,Tiny Robin Pokémon,6
+662,Ember Pokémon,6
+663,Scorching Pokémon,6
+664,Scatterdust Pokémon,6
+665,Scatterdust Pokémon,6
+666,Scale Pokémon,6
+667,Lion Cub Pokémon,6
+668,Royal Pokémon,6
+669,Single Bloom Pokémon,6
+670,Fairy Pokémon,6
+671,Garden Pokémon,6
+672,Mount Pokémon,6
+673,Mount Pokémon,6
+674,Playful Pokémon,6
+675,Daunting Pokémon,6
+676,Poodle Pokémon,6
+677,Restraint Pokémon,6
+678,Constraint Pokémon,6
+679,Sword Pokémon,6
+680,Sword Pokémon,6
+681,Royal Sword Pokémon,6
+682,Perfume Pokémon,6
+683,Fragrance Pokémon,6
+684,Cotton Candy Pokémon,6
+685,Meringue Pokémon,6
+686,Revolving Pokémon,6
+687,Overturning Pokémon,6
+688,Two-Handed Pokémon,6
+689,Collective Pokémon,6
+690,Mock Kelp Pokémon,6
+691,Mock Kelp Pokémon,6
+692,Water Gun Pokémon,6
+693,Howitzer Pokémon,6
+694,Generator Pokémon,6
+695,Generator Pokémon,6
+696,Royal Heir Pokémon,6
+697,Despot Pokémon,6
+698,Tundra Pokémon,6
+699,Tundra Pokémon,6
+700,Intertwining Pokémon,6
+701,Wrestling Pokémon,6
+702,Antenna Pokémon,6
+703,Jewel Pokémon,6
+704,Soft Tissue Pokémon,6
+705,Soft Tissue Pokémon,6
+706,Dragon Pokémon,6
+707,Key Ring Pokémon,6
+708,Stump Pokémon,6
+709,Elder Tree Pokémon,6
+710,Pumpkin Pokémon,6
+711,Pumpkin Pokémon,6
+712,Ice Chunk Pokémon,6
+713,Iceberg Pokémon,6
+714,Sound Wave Pokémon,6
+715,Sound Wave Pokémon,6
+716,Life Pokémon,6
+717,Destruction Pokémon,6
+718,Order Pokémon,6
+719,Jewel Pokémon,6
+720,Mischief Pokémon (Confined)Djinn Pokémonn (Unbound),6
+721,Steam Pokémon,6
+722,Grass Quill Pokémon,7
+723,Blade Quill Pokémon,7
+724,Arrow Quill Pokémon,7
+725,Fire Cat Pokémon,7
+726,Fire Cat Pokémon,7
+727,Heel Pokémon,7
+728,Sea Lion Pokémon,7
+729,Pop Star Pokémon,7
+730,Soloist Pokémon,7
+731,Woodpecker Pokémon,7
+732,Bugle Beak Pokémon,7
+733,Cannon Pokémon,7
+734,Loitering Pokémon,7
+735,Stakeout Pokémon,7
+736,Larva Pokémon,7
+737,Battery Pokémon,7
+738,Stag Beetle Pokémon,7
+739,Boxing Pokémon,7
+740,Woolly Crab Pokémon,7
+741,Dancing Pokémon,7
+742,Bee Fly Pokémon,7
+743,Bee Fly Pokémon,7
+744,Puppy Pokémon,7
+745,Wolf Pokémon,7
+746,Small Fry Pokémon,7
+747,Brutal Star Pokémon,7
+748,Brutal Star Pokémon,7
+749,Donkey Pokémon,7
+750,Draft Horse Pokémon,7
+751,Water Bubble Pokémon,7
+752,Water Bubble Pokémon,7
+753,Sickle Grass Pokémon,7
+754,Bloom Sickle Pokémon,7
+755,Illuminating Pokémon,7
+756,Illuminating Pokémon,7
+757,Toxic Lizard Pokémon,7
+758,Toxic Lizard Pokémon,7
+759,Flailing Pokémon,7
+760,Strong Arm Pokémon,7
+761,Fruit Pokémon,7
+762,Fruit Pokémon,7
+763,Fruit Pokémon,7
+764,Posy Picker Pokémon,7
+765,Sage Pokémon,7
+766,Teamwork Pokémon,7
+767,Turn Tail Pokémon,7
+768,Hard Scale Pokémon,7
+769,Sand Heap Pokémon,7
+770,Sand Castle Pokémon,7
+771,Sea Cucumber Pokémon,7
+772,Synthetic Pokémon,7
+773,Synthetic Pokémon,7
+774,Meteor Pokémon,7
+775,Drowsing Pokémon,7
+776,Blast Turtle Pokémon,7
+777,Roly-Poly Pokémon,7
+778,Disguise Pokémon,7
+779,Gnash Teeth Pokémon,7
+780,Placid Pokémon,7
+781,Sea Creeper Pokémon,7
+782,Scaly Pokémon,7
+783,Scaly Pokémon,7
+784,Scaly Pokémon,7
+785,Land Spirit Pokémon,7
+786,Land Spirit Pokémon,7
+787,Land Spirit Pokémon,7
+788,Land Spirit Pokémon,7
+789,Nebula Pokémon,7
+790,Protostar Pokémon,7
+791,Sunne Pokémon,7
+792,Moone Pokémon,7
+793,Parasite Pokémon,7
+794,Swollen Pokémon,7
+795,Lissome Pokémon,7
+796,Glowing Pokémon,7
+797,Launch Pokémon,7
+798,Drawn Sword Pokémon,7
+799,Junkivore Pokémon,7
+800,Prism Pokémon,7
+801,Artificial Pokémon,7
