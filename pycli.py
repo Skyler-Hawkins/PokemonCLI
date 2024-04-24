@@ -19,19 +19,19 @@ THE ORDER OF THE CODE:
 conn = psycopg2.connect(
     dbname="postgres",
     user="postgres",
-    password="your_password",
+    password="Boofboofdoof",
     host="localhost"  # or the IP address of your database server
 )
 cur = conn.cursor()
 
 # Now, create list of dictionary: Each tuple will contain the table name as the key and the column names of that table
-Pokemon_dict = {'Pokemon': ['name', 'generationid', 'abilityName1','abilityName2','abilityName3', 'type1', 'type2', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed']}
-Pokedex_dict = {'Pokedex': ['pokedexEntryNum', 'classfication', 'generation']}
-Abilities_dict = {'Abilities': 'abilityName'}
-Generations_dict = {'Generations': ['generationNum', 'generationName']}
-Types_dict = {'Types': ['typeName', 'generation']}
-tableList = ['Pokemon', 'Pokedex', 'Ability', 'Generations', 'Types']
-aggregate_functions = ['COUNT', 'SUM', 'AVG', 'MIN', 'MAX']
+Pokemon_dict = {'Pokemon': ['name', 'generationid', 'abilityName1','abilityName2','abilityName3', 'type1', 'type2', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed', '*']}
+Pokedex_dict = {'Pokedex': ['pokedexEntryNum', 'classfication', 'generation', '*']}
+Abilities_dict = {'Abilities': ['abilityName', '*']}
+Generation_dict = {'Generation': ['generationid', 'region', '*']}
+Types_dict = {'Types': ['typeName', 'generation', '*']}
+tableList = ['Pokemon', 'Pokedex', 'Ability', 'Generation', 'Types']
+aggregate_functions = ['COUNT', 'SUM', 'AVG', 'MIN', 'MAX', '*']
 
 
 # Helper functions to assist in operations used across all different operations
@@ -54,7 +54,7 @@ def showQuery():
         for row in rows:
             print(' | '.join(str(item) for item in row))
     except Exception as e:
-        if e == 'no results to fetch':
+        if e == "no results to fetch" or e == "no results to fetch ":
             print("completed")
         else:
             print(f"An error occurred: {e}")
@@ -141,6 +141,21 @@ def getColumnNames(tableName):
     columns_str = ', '.join(columns)
     return columns_str
 
+def getColumnNamesAndTable(tableName):
+    showColumns(tableName)
+    columnNames = input("Enter the column numbers separated by commas (example: 1,2,4): ")
+    columnNames = columnNames.split(',')
+    columnNames = [int(column) for column in columnNames]
+    for i in range(0, len(columnNames)):
+        # just bc 0-indexed tables
+        columnNames[i] = columnNames[i] - 1
+    # now, need to do a loop for each entry in columnNames
+
+    table_dict = globals()[tableName + '_dict']
+    columns = [f"{tableName}.{table_dict[tableName][i]}" for i in columnNames]
+    # Convert the list of column names to a comma-separated string
+    columns_str = ', '.join(columns)
+    return columns_str
 
 def insertData(transact=False):
     # inserting data
@@ -151,10 +166,10 @@ def insertData(transact=False):
 
         # Modify the query to use the columns_str
         query = "INSERT INTO " + tableName + "(" + columns_str + ") VALUES(" + valueList + ");"
-        print("Your insertion in SQL:\n", query)
+        print("Your insertion in SQL:\n")
+        print(query)
 
         cur.execute(query)
-        showQuery()
         if transact == True:
            pass
         else:
@@ -198,11 +213,11 @@ def deleteData(transact=False):
             query = "DELETE FROM " + tableName + " WHERE " + condition + ";"
         print(query + "\n")
         cur.execute(query)
-        showQuery()
         if transact == True:
            pass
         else:
             conn.commit()
+        print("\nDeletion Completed Successfully!")
     except Exception as e:
         conn.rollback()
 
@@ -224,11 +239,12 @@ def updateData(transact=False):
             query = "UPDATE " + tableName + " SET " + setCondition + " WHERE " + whereCondition + ";"
         print(query + "\n")
         cur.execute(query)
-        showQuery()
+        # showQuery()
         if transact == True:
            pass
         else:
             conn.commit()
+        print("\nUpdate Completed Successfully!")
     except Exception as e:
         conn.rollback()
         print("An error occurred:", str(e))    
@@ -261,6 +277,7 @@ def searchData(transact=False):
            pass
         else:
             conn.commit()
+        print("\nSearch Completed Successfully!")
     except Exception as e:
         conn.rollback()        
         print("An error occurred:", str(e))
@@ -310,6 +327,7 @@ def aggregateData(transact=False):
            pass
         else:
             conn.commit()
+        print("\nAggregation Completed Successfully!")
 
     except Exception as e:
         cur.rollback()
@@ -372,7 +390,8 @@ def sortData(transact=False):
         if transact == True:
            pass
         else:
-            conn.commit()    
+            conn.commit() 
+        print("\nSorting Completed Successfully!")   
     except Exception as e:
         conn.rollback()
         print("An error occurred:", str(e))
@@ -410,7 +429,7 @@ def joinData(transact=False):
         for tableName in joinTableList:
             # showColumns(tableName)
             # here, we will have a list of strings, where each entry in the list is the columns specified from each list.... then will be formatted as (tableName.columnName) in the query 
-            columns_str = getColumnNames(tableName)
+            columns_str = getColumnNamesAndTable(tableName)
             outerColumnList.append(columns_str)
 
         columnsQuery = " "
@@ -432,7 +451,7 @@ def joinData(transact=False):
            pass
         else:
             conn.commit()
-
+        print("\nJoin Completed Successfully!")
     except Exception as e:
         conn.rollback()
 
@@ -442,7 +461,6 @@ def groupData(transact=False):
         # grouping
         # need to get table name first
         try:
-
             tableName = inputSingleTable()
             # next, get the columns to be queried
             table_dict = globals()[tableName + '_dict']
@@ -460,7 +478,30 @@ def groupData(transact=False):
                 groupColumn = int(groupColumn) - 1
                 groupColumn = table_dict[tableName][groupColumn]
                 groupQuery.append(groupColumn)
+
+
+            print("If any columns were left out of the group by statement, you must input an aggregate function for them")            
+            print("Enter 'done' if the above is not applicable to your query, otheriwse:")
+            aggregateColumns = ""
+            showColumns(tableName)
+            while(True):
+                print("Input a column to be aggregated: \n")
+                columnAgg = input("")
+                if columnAgg == 'done':
+                    break
+                columnAgg = int(columnAgg) - 1
+                column_name = table_dict[tableName][columnAgg]
+                print("Enter the aggregate function to be used (1: COUNT, 2: SUM, 3: AVG, 4: MIN, 5: MAX): ")
+                fnchoice = input("")
+                fnchoice = int(fnchoice)
+                fnchoiceIndex = fnchoice - 1
+                aggregateFunction = aggregate_functions[fnchoiceIndex]
+                aggregateColumns += ", " + aggregateFunction + "('" + column_name + "')"
+
+
+
             
+
             numVals = 0
             groupStr = []
             for i in range(0, len(groupQuery)):
@@ -469,12 +510,14 @@ def groupData(transact=False):
                 else:
                     groupStr += ", " + groupQuery[i]
                 numVals +=1
+            # next, if the user left any other columns out of the group by statement
 
+            # now need to format the aggregation 
 
 
             # the grouped query:
             if condition == "":
-                query = "SELECT " + column_str + " FROM " + tableName + " GROUP BY " + groupStr + ";"
+                query = "SELECT " + groupStr + aggregateColumns + " FROM " + tableName + " GROUP BY " + groupStr + ";"
             else:
                 query = "SELECT " + column_str + " FROM " + tableName + " WHERE " + condition + " GROUP BY " + groupStr + ";"
             print("Your grouping query in SQL: \n", query)
@@ -484,6 +527,7 @@ def groupData(transact=False):
                pass
             else:
                 conn.commit()
+            print("\nGrouping Completed Successfully!")
         except Exception as e:
             conn.rollback()
             print("An error occurred:", str(e))
@@ -527,7 +571,7 @@ def subqueryData(transact=False):
                     totalQuery += query
                 else:
                     showColumns(tableName)
-                    newcondition = input("enter column number to be checking: ")
+                    newcondition = input("enter the column number to be checking in the subquery: ")
                     newcondition = table_dict[tableName][int(newcondition) - 1]
                     query += "SELECT " + columns_str +  " FROM " + tableName + " WHERE "+ newcondition + " IN ("
                     totalQuery += query
@@ -543,6 +587,7 @@ def subqueryData(transact=False):
                 pass
             else:
                 conn.commit()
+            print("\nSubqueries Completed Successfully!")
 
         except Exception as e:
            conn.rollback()
@@ -550,7 +595,8 @@ def subqueryData(transact=False):
         
 
 while True:
-    choice = input('Welcome to Skylers Pokemon Database! below are your options\n'
+
+    choice = input('Welcome to Skylers Pokemon Database!\nNote*, when "*" is shown, it is to denote all columns\nbelow are your options\n'
              "1: Insert Data \n2: Delete Data \n3: Update Data \n4: Search Data \n5: Aggregate Functions \n"
             "6: Sorting Data \n7: Joins \n8: Grouping \n9: Subqueries \n"
             "10: Transactions\n11: Exit\n"
@@ -609,17 +655,19 @@ while True:
             elif choice == '10':
                 # committing all changes in this transaction
                 conn.commit()
-                pass
+                print("\nCommitting all change in this transaction")
             elif choice == '11':
                 # rolling back all changes in this transaction
                 conn.rollback()
-                pass
+                print("\nRolling back all changes in this transaction")
+
             elif choice == '12':
                 print("Exiting Transaction Manager")
                 active = False
         pass
     elif choice == '11':
-        # exit
+        # exit comment
+        print("\nExiting the CLI, goodbye!")
         break
 
 # CLOSING the connection to the DB
